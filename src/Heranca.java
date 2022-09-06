@@ -22,6 +22,13 @@ public class Heranca {
         carro.setNumRodas(4);
         carro.setCapacidade(5);
         
+        moto.setNumPlaca("AVA-6699");
+        moto.setCapacidade(2);
+        moto.setNumPortas(0);
+        moto.setNumRodas(2);
+        
+        
+        carro.ImprimeDadosCarro();
     }
     
 }

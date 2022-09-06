@@ -9,7 +9,7 @@
  * @author christhofer.vieira
  */
 public class Terrestre extends Transporte{
-    private int numRodas;
+    protected int numRodas;
 
     public int getNumRodas() {
         return numRodas;

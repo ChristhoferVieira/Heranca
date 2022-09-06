@@ -11,6 +11,15 @@
 public class Automovel extends Terrestre{
     private String numPlaca;
     private int numPortas;
+    
+    public void ImprimeDadosCarro(){
+        System.out.println("Placa: "+numPlaca);
+        System.out.println("Nº de Portas: "+numPortas);
+        System.out.println("Nº de rodas: "+numRodas);
+        System.out.println("Capacidade: "+capacidade);
+        
+    }
+    
 
     public String getNumPlaca() {
         return numPlaca;
