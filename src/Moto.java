@@ -8,6 +8,24 @@
  *
  * @author christhofer.vieira
  */
-public class Moto {
+public class Moto extends Terrestre{
+    private String placa;
+    
+    public void ImprimeDadosMoto(){
+        System.out.println("Placa: "+placa);
+        System.out.println("N° de rodas: "+numRodas);
+        System.out.println("Capacidade: "+capacidade);
+        
+    
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+    
     
 }
